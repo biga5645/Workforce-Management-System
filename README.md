@@ -234,7 +234,6 @@ I specialize in building **high-performance mobile apps, real-time cloud systems
 - **Email**: `biga.onee@gmail.com` *(Replace with your professional email)*
 - **WhatsApp**: `+212 662564570` *(Replace with your phone/WhatsApp)*
 - **GitHub**: [@biga5645](https://github.com/biga5645)
-- **LinkedIn**: [Your Profile](https://linkedin.com/)
 
 ---
 
