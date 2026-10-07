@@ -231,8 +231,8 @@ I specialize in building **high-performance mobile apps, real-time cloud systems
 - 📊 **Custom ERP / CRM**: Workforce tracking, POS systems, Inventory & Payroll solutions.
 
 ### 📬 Get In Touch:
-- **Email**: `your-email@example.com` *(Replace with your professional email)*
-- **WhatsApp**: `+212 XXXXXXXXX` *(Replace with your phone/WhatsApp)*
+- **Email**: `biga.onee@gmail.com` *(Replace with your professional email)*
+- **WhatsApp**: `+212 662564570` *(Replace with your phone/WhatsApp)*
 - **GitHub**: [@biga5645](https://github.com/biga5645)
 - **LinkedIn**: [Your Profile](https://linkedin.com/)
 
