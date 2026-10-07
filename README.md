@@ -170,8 +170,8 @@ erDiagram
 ### 1. Android Application Setup
 1. Clone the repository:
    ```bash
-   git clone https://github.com/YOUR_USERNAME/BIGAPP.git
-   cd BIGAPP
+   git clone https://github.com/biga5645/Workforce-Management-System.git
+   cd Workforce-Management-System
    ```
 2. Open the project in **Android Studio** (Hedgehog or newer recommended).
 3. Connect your Firebase project:
@@ -233,7 +233,7 @@ I specialize in building **high-performance mobile apps, real-time cloud systems
 ### 📬 Get In Touch:
 - **Email**: `your-email@example.com` *(Replace with your professional email)*
 - **WhatsApp**: `+212 XXXXXXXXX` *(Replace with your phone/WhatsApp)*
-- **GitHub**: [@your-username](https://github.com/)
+- **GitHub**: [@biga5645](https://github.com/biga5645)
 - **LinkedIn**: [Your Profile](https://linkedin.com/)
 
 ---
