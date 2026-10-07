@@ -1,0 +1,63 @@
+# ==========================================
+# Android & Gradle Build Files
+# ==========================================
+*.iml
+.gradle/
+/local.properties
+local.properties
+/build/
+build/
+*/build/
+app/build/
+.externalNativeBuild/
+.cxx/
+captures/
+.kotlin/
+
+# Output packages
+*.apk
+*.ap_
+*.aab
+*.dex
+
+# ==========================================
+# IDE Configuration
+# ==========================================
+.idea/
+.vscode/
+*.ipr
+*.iws
+
+# ==========================================
+# Memory & Diagnostic Dumps
+# ==========================================
+*.hprof
+hs_err_pid*
+replay_pid*
+*.log
+
+# ==========================================
+# Security & Secret Keys (CRITICAL)
+# ==========================================
+*-firebase-adminsdk-*.json
+serviceAccountKey*.json
+*service-account*.json
+!service-account.sample.json
+!google-services.json.example
+*.jks
+*.keystore
+signing.properties
+
+# Environment variables & local server configs
+.env
+.env.local
+.env.*.local
+
+# ==========================================
+# OS & Temporary Files
+# ==========================================
+.DS_Store
+Thumbs.db
+desktop.ini
+*.tmp
+*~

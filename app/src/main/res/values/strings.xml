@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">BIGAPP</string>
+    <string name="login">Login</string>
+    <string name="register">Register</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="full_name">Full Name</string>
+    <string name="phone">Phone</string>
+    <string name="start_date">Start Date</string>
+    <string name="sign_in">Sign In</string>
+    <string name="no_account">Don\'t have an account? Register</string>
+    <string name="has_account">Already have an account? Login</string>
+    <string name="pending_approval_title">Account Pending Approval</string>
+    <string name="pending_approval_desc">Please wait for the administrator to approve your account.</string>
+    <string name="logout">Logout</string>
+    <string name="admin_dashboard">Admin Dashboard</string>
+    <string name="worker_dashboard">Worker Dashboard</string>
+    <string name="workers">Workers</string>
+    <string name="work_registration">Work Registration</string>
+    <string name="reports">Reports</string>
+    <string name="settings">Settings</string>
+    <string name="days">Days</string>
+    <string name="hours">Hours</string>
+    <string name="amount">Amount</string>
+    <string name="note">Note</string>
+    <string name="save_all">Save All</string>
+</resources>

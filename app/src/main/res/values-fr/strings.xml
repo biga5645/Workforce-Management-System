@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">BIGAPP</string>
+    <string name="login">Connexion</string>
+    <string name="register">S\'inscrire</string>
+    <string name="email">Email</string>
+    <string name="password">Mot de passe</string>
+    <string name="full_name">Nom complet</string>
+    <string name="phone">Téléphone</string>
+    <string name="start_date">Date de début</string>
+    <string name="sign_in">Se connecter</string>
+    <string name="no_account">Pas de compte ? S\'inscrire</string>
+    <string name="has_account">Déjà un compte ? Se connecter</string>
+    <string name="pending_approval_title">Compte en attente d\'approbation</string>
+    <string name="pending_approval_desc">Veuillez attendre que l\'administrateur approuve votre compte.</string>
+    <string name="logout">Déconnexion</string>
+    <string name="admin_dashboard">Tableau de bord Admin</string>
+    <string name="worker_dashboard">Tableau de bord Ouvrier</string>
+    <string name="workers">Ouvriers</string>
+    <string name="work_registration">Enregistrement du travail</string>
+    <string name="reports">Rapports</string>
+    <string name="settings">Paramètres</string>
+    <string name="days">Jours</string>
+    <string name="hours">Heures</string>
+    <string name="amount">Montant</string>
+    <string name="note">Note</string>
+    <string name="save_all">Enregistrer tout</string>
+</resources>

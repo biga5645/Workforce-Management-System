@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">BIGAPP</string>
+    <string name="login">دخل</string>
+    <string name="register">تسجل</string>
+    <string name="email">الإيمايل</string>
+    <string name="password">الكود</string>
+    <string name="full_name">السمية والكنية</string>
+    <string name="phone">النمرة</string>
+    <string name="start_date">تاريخ البدية</string>
+    <string name="sign_in">دخول</string>
+    <string name="no_account">ماعندكش حساب؟ تسجل</string>
+    <string name="has_account">عندك حساب؟ دخل</string>
+    <string name="pending_approval_title">الحساب كيتسنا الموافقة</string>
+    <string name="pending_approval_desc">تسنا شوية حتى يوافق عليك المسؤول.</string>
+    <string name="logout">خرج</string>
+    <string name="admin_dashboard">لوحة التحكم</string>
+    <string name="worker_dashboard">صفحة العامل</string>
+    <string name="workers">الخدامة</string>
+    <string name="work_registration">تقييد الخدمة</string>
+    <string name="reports">التقارير</string>
+    <string name="settings">الإعدادات</string>
+    <string name="days">الأيام</string>
+    <string name="hours">السوايع</string>
+    <string name="amount">الثمن</string>
+    <string name="note">ملاحظة</string>
+    <string name="save_all">حفظ كولشي</string>
+</resources>

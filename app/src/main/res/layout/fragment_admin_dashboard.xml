@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/tvTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/admin_dashboard"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
+        android:id="@+id/btnLogout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="?attr/selectableItemBackgroundBorderless"
+        android:src="@android:drawable/ic_lock_power_off"
+        android:contentDescription="Logout"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@id/tvTitle"
+        app:layout_constraintBottom_toBottomOf="@id/tvTitle"/>
+
+    <GridLayout
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="24dp"
+        android:columnCount="2"
+        android:rowCount="3"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tvTitle">
+
+        <com.google.android.material.card.MaterialCardView
+            android:id="@+id/cardWorkers"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:layout_margin="8dp"
+            app:cardCornerRadius="12dp">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:padding="16dp">
+                <ImageView
+                    android:layout_width="48dp"
+                    android:layout_height="48dp"
+                    android:src="@android:drawable/ic_menu_agenda" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:text="@string/workers" />
+            </LinearLayout>
+        </com.google.android.material.card.MaterialCardView>
+
+        <com.google.android.material.card.MaterialCardView
+            android:id="@+id/cardWorkRegistration"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:layout_margin="8dp"
+            app:cardCornerRadius="12dp">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:padding="16dp">
+                <ImageView
+                    android:layout_width="48dp"
+                    android:layout_height="48dp"
+                    android:src="@android:drawable/ic_menu_edit" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:text="@string/work_registration" />
+            </LinearLayout>
+        </com.google.android.material.card.MaterialCardView>
+
+        <com.google.android.material.card.MaterialCardView
+            android:id="@+id/cardPending"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:layout_margin="8dp"
+            app:cardCornerRadius="12dp">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:padding="16dp">
+                <ImageView
+                    android:layout_width="48dp"
+                    android:layout_height="48dp"
+                    android:src="@android:drawable/ic_menu_view" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:text="Pending" />
+            </LinearLayout>
+        </com.google.android.material.card.MaterialCardView>
+
+        <com.google.android.material.card.MaterialCardView
+            android:id="@+id/cardReports"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:layout_margin="8dp"
+            app:cardCornerRadius="12dp">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:padding="16dp">
+                <ImageView
+                    android:layout_width="48dp"
+                    android:layout_height="48dp"
+                    android:src="@android:drawable/ic_menu_sort_by_size" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:text="@string/reports" />
+            </LinearLayout>
+        </com.google.android.material.card.MaterialCardView>
+
+        <com.google.android.material.card.MaterialCardView
+            android:id="@+id/cardSettings"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:layout_margin="8dp"
+            app:cardCornerRadius="12dp">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:padding="16dp">
+                <ImageView
+                    android:layout_width="48dp"
+                    android:layout_height="48dp"
+                    android:src="@android:drawable/ic_menu_manage" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:text="@string/settings" />
+            </LinearLayout>
+        </com.google.android.material.card.MaterialCardView>
+
+    </GridLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

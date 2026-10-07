@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="24dp"
+        android:gravity="center">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/register"
+            android:textSize="32sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="32dp"/>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/Widget.Material3.TextInputLayout.OutlinedBox"
+            android:hint="@string/full_name">
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/etName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textPersonName"/>
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            style="@style/Widget.Material3.TextInputLayout.OutlinedBox"
+            android:hint="@string/phone">
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/etPhone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="phone"/>
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            style="@style/Widget.Material3.TextInputLayout.OutlinedBox"
+            android:hint="@string/email">
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/etEmail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textEmailAddress"/>
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            style="@style/Widget.Material3.TextInputLayout.OutlinedBox"
+            android:hint="@string/password">
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/etPassword"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textPassword"/>
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <Button
+            android:id="@+id/btnRegister"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:layout_marginTop="24dp"
+            android:text="@string/register"/>
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnBackToLogin"
+            style="@style/Widget.Material3.Button.TextButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="@string/has_account"/>
+
+    </LinearLayout>
+</ScrollView>

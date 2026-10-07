@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Base application theme. -->
+    <style name="Theme.BIGAPP" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/primary</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="colorPrimaryContainer">@color/primary_container</item>
+        <item name="colorOnPrimaryContainer">@color/on_primary_container</item>
+
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/secondary</item>
+        <item name="colorOnSecondary">@color/white</item>
+
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor">?attr/colorPrimary</item>
+    </style>
+</resources>

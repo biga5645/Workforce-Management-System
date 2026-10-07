@@ -1,0 +1,10 @@
+# BIGAAPP cPanel Configuration - Fixed
+Options -Indexes
+
+DirectoryIndex index.php
+
+# Enable URL rewriting (Optional: hides .php extension)
+RewriteEngine On
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME}.php -f
+RewriteRule ^(.*)$ $1.php [L]
